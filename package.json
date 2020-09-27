@@ -1,6 +1,6 @@
 {
   "name": "canvas-stars",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.3"
   }
 }

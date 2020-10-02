@@ -1,4 +1,4 @@
-import Utils from "./src/utils"
+import Utils from "./utils"
 
 export default class Stars extends Utils {
   constructor(n, canvasWidth, canvasHeight) {
@@ -14,7 +14,10 @@ export default class Stars extends Utils {
       const X = this._random(0, this.canvasWidth)
       const Y = this._random(0, this.canvasHeight)
       const radius = this._random(0, 4)
-      const forceVector = { x: this._random(-3, 3), y: this._random(-3, 3) }
+      const forceVector = {
+        x: this._random(-0.8, 0.8),
+        y: this._random(-0.8, 0.8),
+      }
 
       this.units.push({ X, Y, radius, forceVector })
     }
